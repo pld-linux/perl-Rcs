@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Rcs perl module
-Summary(pl):	Modu³ perla Rcs
+Summary(pl):	Modu³ Perla Rcs
 Name:		perl-Rcs
 Version:	1.05
 Release:	1
