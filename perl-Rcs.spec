@@ -3,7 +3,7 @@ Summary:	Rcs perl module
 Summary(pl):	Modu³ perla Rcs
 Name:		perl-Rcs
 Version:	1.04
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Rcs/Rcs-%{version}.tar.gz
