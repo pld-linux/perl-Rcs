@@ -27,7 +27,7 @@ Rcs - umo¿liwia dostêp do narzêdzi Systemu Kontroli Rewizji (RCS).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
