@@ -2,8 +2,8 @@
 Summary:	Rcs perl module
 Summary(pl):	Modu³ perla Rcs
 Name:		perl-Rcs
-Version:	0.09
-Release:	5
+Version:	1.01
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
