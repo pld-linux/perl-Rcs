@@ -28,7 +28,7 @@ Rcs - umo¿liwia dostêp do narzêdzi Systemu Kontroli Rewizji (RCS).
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
