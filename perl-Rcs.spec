@@ -3,13 +3,13 @@ Summary:	Rcs perl module
 Summary(pl):	Modu³ perla Rcs
 Name:		perl-Rcs
 Version:	1.04
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Rcs/Rcs-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,7 +25,8 @@ Rcs - umo¿liwia dostêp do narzêdzi Systemu Kontroli Rewizji (RCS).
 %patch -p0
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -42,6 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README ANNOUNCE
-%{perl_sitelib}/Rcs.pm
+%{perl_vendorlib}/Rcs.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
