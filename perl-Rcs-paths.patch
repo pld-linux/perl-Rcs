@@ -1,0 +1,152 @@
+--- examples.paths/access.pl	Thu Sep  3 05:41:52 1998
++++ examples/access.pl	Mon Oct 18 18:56:46 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Add users to access list.
+ #------------------------------------------
+--- examples.paths/ci.pl	Sun Sep  6 04:32:01 1998
++++ examples/ci.pl	Mon Oct 18 18:56:55 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Check-in source file.
+ #------------------------------------------
+--- examples.paths/co.pl	Sun Sep  6 04:32:18 1998
++++ examples/co.pl	Mon Oct 18 18:57:01 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Check-out source file.
+ #------------------------------------------
+--- examples.paths/comments.pl	Thu Sep  3 05:41:56 1998
++++ examples/comments.pl	Mon Oct 18 18:57:06 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Access comments hash
+ #------------------------------------------
+--- examples.paths/comments2.pl	Sun Sep  6 07:00:50 1998
++++ examples/comments2.pl	Mon Oct 18 18:57:11 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Access comments hash
+ #------------------------------------------
+--- examples.paths/daterev.pl	Mon Sep  7 17:17:57 1998
++++ examples/daterev.pl	Mon Oct 18 18:57:16 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Test daterev method
+ #------------------------------------------
+--- examples.paths/dates.pl	Thu Sep  3 05:41:57 1998
++++ examples/dates.pl	Mon Oct 18 18:57:21 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Access dates hash
+ #------------------------------------------
+--- examples.paths/mark.pl	Thu Sep  3 05:41:58 1998
++++ examples/mark.pl	Mon Oct 18 18:57:31 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Unlock RCS file
+ #------------------------------------------
+--- examples.paths/parse.pl	Thu Sep  3 05:41:58 1998
++++ examples/parse.pl	Mon Oct 18 18:57:35 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Parse RCS archive file.
+ #------------------------------------------
+--- examples.paths/rcsclean.pl	Thu Sep  3 05:42:12 1998
++++ examples/rcsclean.pl	Mon Oct 18 18:57:44 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # rcsclean utility
+ #------------------------------------------
+--- examples.paths/rcsdiff.pl	Thu Sep  3 05:42:12 1998
++++ examples/rcsdiff.pl	Mon Oct 18 18:57:48 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Use rcsdiff utility.
+ #------------------------------------------
+--- examples.paths/revdate.pl	Thu Sep  3 05:42:21 1998
++++ examples/revdate.pl	Mon Oct 18 18:57:53 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Get revision date
+ #------------------------------------------
+--- examples.paths/rlog.pl	Sun Sep  6 04:31:30 1998
++++ examples/rlog.pl	Mon Oct 18 18:57:56 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Use rlog utility.
+ #------------------------------------------
+--- examples.paths/symbols.pl	Thu Sep  3 05:42:22 1998
++++ examples/symbols.pl	Mon Oct 18 18:58:00 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Test symrev method
+ #------------------------------------------
+--- examples.paths/symrev.pl	Thu Sep  3 05:42:23 1998
++++ examples/symrev.pl	Mon Oct 18 18:58:04 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Test symrev method
+ #------------------------------------------
+--- examples.paths/test1.pl	Thu Sep  3 05:42:24 1998
++++ examples/test1.pl	Mon Oct 18 18:58:08 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ use lib '.';
+--- examples.paths/test2.pl	Thu Sep  3 05:42:25 1998
++++ examples/test2.pl	Mon Oct 18 18:58:11 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ use lib '.';
+--- examples.paths/test3.pl	Thu Sep  3 05:42:26 1998
++++ examples/test3.pl	Mon Oct 18 18:58:15 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ use lib '.';
+--- examples.paths/unlock.pl	Thu Sep  3 05:42:30 1998
++++ examples/unlock.pl	Mon Oct 18 18:58:24 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #------------------------------------------
+ # Unlock RCS file
+ #------------------------------------------
