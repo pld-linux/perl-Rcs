@@ -33,11 +33,11 @@ perl Makefile.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_exampledir}/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-cp -ar examples/* $RPM_BUILD_ROOT%{_exampledir}/%{name}-%{version}
+cp -ar examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 gzip -9nf Changes README ANNOUNCE
 
@@ -49,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %{perl_sitelib}/Rcs.pm
 %{_mandir}/man3/*
-%{_exampledir}/%{name}-%{version}
+%{_examplesdir}/%{name}-%{version}
