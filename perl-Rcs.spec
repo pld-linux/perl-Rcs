@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Rcs perl module
-Summary(pl):	Modu³ Perla Rcs
+Summary(pl.UTF-8):   ModuÅ‚ Perla Rcs
 Name:		perl-Rcs
 Version:	1.05
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Rcs - provides an object oriented interface to access Revision Control
 System (RCS) utilities.
 
-%description -l pl
-Rcs - umo¿liwia dostêp do narzêdzi Systemu Kontroli Rewizji (RCS).
+%description -l pl.UTF-8
+Rcs - umoÅ¼liwia dostÄ™p do narzÄ™dzi Systemu Kontroli Rewizji (RCS).
 
 %prep
 %setup -q -n Rcs-%{version}
