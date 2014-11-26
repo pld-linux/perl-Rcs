@@ -1,9 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
+%define		pdir	Rcs
 %include	/usr/lib/rpm/macros.perl
-Summary:	Rcs perl module
+Summary:	Rcs Perl module
 Summary(pl.UTF-8):	Moduł Perla Rcs
 Name:		perl-Rcs
 Version:	1.05
@@ -14,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Rcs/Rcs-%{version}.tar.gz
 # Source0-md5:	f3466fe6cef54f8780d753fa0995b0ac
 Patch0:		%{name}-paths.patch
+URL:		http://search.cpan.org/dist/Rcs-/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
