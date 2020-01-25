@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define		pdir	Rcs
-%include	/usr/lib/rpm/macros.perl
 Summary:	Rcs Perl module
 Summary(pl.UTF-8):	Moduł Perla Rcs
 Name:		perl-Rcs
