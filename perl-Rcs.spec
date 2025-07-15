@@ -29,7 +29,7 @@ Rcs - umożliwia dostęp do narzędzi Systemu Kontroli Rewizji (RCS).
 
 %prep
 %setup -q -n Rcs-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
