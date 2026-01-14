@@ -7,7 +7,7 @@ Summary:	Rcs Perl module
 Summary(pl.UTF-8):	Moduł Perla Rcs
 Name:		perl-Rcs
 Version:	1.05
-Release:	2
+Release:	3
 # same as perl
 License:	GPL
 Group:		Development/Languages/Perl
